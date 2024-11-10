@@ -186,6 +186,17 @@ div.why-us ul {
 
 }
 
+@media screen and (max-width:300px) {
+    body {
+        display:block;
+        padding:0.5rem;
+    }
+    div.wrapper {
+        width:100%;
+    }
+
+}
+
 @media screen and (min-width:600px) {
 
     section#text-content .guarantee-text {
