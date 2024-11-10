@@ -44,7 +44,7 @@ body {
 div.wrapper {
     color:white;
     border-radius:0.4rem;
-    box-shadow:-1px 1px 20px rgba(0, 0, 0, 0.1);
+    box-shadow:-1px 1px 20px rgba(0, 0, 0, 0.3);
 }
 
 section#text-content p.description-text {
