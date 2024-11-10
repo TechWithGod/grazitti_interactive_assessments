@@ -23,11 +23,26 @@ html {
 body {
     background:var(--body-bg);
     padding:0.5rem;
+    display:flex;
+    flex-direction: column;
 }
 /* wrapper */
 div.wrapper {
     max-width:800px;
+    box-shadow:-1px 1px 20px rgba(0,0,0,0.3);
+    border-radius:0.5rem;
 }
+
+body::after {
+    content: "Challenge coded by Ravrinder Singh";
+    margin-top:1rem;
+    text-align: center;
+    color:var(--bg-luxury);
+    text-decoration: underline;
+    cursor:pointer;
+    font-size:small;
+}
+
 
 
 /* globals */
@@ -76,8 +91,8 @@ div.logo img {
 
 div.sedans {
     background: var(--bg-sedans);
-    border-top-left-radius: 0.3rem;
-    border-top-right-radius:0.3rem;
+    border-top-left-radius: .5rem;
+    border-top-right-radius:.5rem;
 }
 
 div.sedans .btn {
@@ -166,13 +181,13 @@ div.container .learn-more:hover {
     
     div.sedans {
         border-top-right-radius:0rem;
-        border-top-left-radius:0.3rem;
-        border-bottom-left-radius:0.3rem;
+        border-top-left-radius:0.5rem;
+        border-bottom-left-radius:0.5rem;
     }
     div.luxury {
         border-bottom-left-radius:0rem;
-        border-top-right-radius:0.3rem;
-        border-bottom-right-radius:0.3rem;
+        border-top-right-radius:0.5rem;
+        border-bottom-right-radius:0.5rem;
     }
 
     .description {
@@ -189,5 +204,7 @@ div.container .learn-more:hover {
         position:absolute;
         bottom:2.5rem;
     }
+
+
     
 }
