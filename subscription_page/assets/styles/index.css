@@ -160,9 +160,14 @@ div.why-us ul {
 }
 
 
+
+
 .btn:hover {
     cursor:pointer;
+    outline:2px solid var(--color-btn);
+    background:var(--bg-monthly-subscription);
 }
+
 
 @media screen and (max-width:599px) {
    
