@@ -62,7 +62,7 @@ div.monthly-subscription h2 {
     display:flex;
     align-items:center; 
     gap:0.7rem;
-    font-size:2.3rem;
+    font-size:2rem;
     font-weight:500;
     margin-bottom:0.2rem;
 }
@@ -90,13 +90,16 @@ h2 {
 
 div.why-us h2 {
     margin-bottom:1rem;
+    font-size:1.2rem;
 }
 
 div.why-us ul {
     font-size:0.9rem;
     font-weight:lighter;
-    line-height:1.2rem;
+    line-height:1.15rem;
 }
+
+
 
 /* global styling */
 
@@ -170,6 +173,10 @@ div.why-us ul {
 }
 
 @media screen and (max-width:500px) {
+    body {
+        display:block;
+        padding:0.8rem 1rem;
+    }
     div.wrapper {
         width:88%;
     }
@@ -179,6 +186,8 @@ div.why-us ul {
 @media screen and (max-width:400px) {
     body {
         display:block;
+        padding:0.7rem;
+
     }
     div.wrapper {
         width:98%;
@@ -198,6 +207,10 @@ div.why-us ul {
 }
 
 @media screen and (min-width:600px) {
+
+    div.container {
+        padding:1.5rem 2rem 1.5rem;
+    }
 
     section#text-content .guarantee-text {
         margin-bottom:0.5rem;
