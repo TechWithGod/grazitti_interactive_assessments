@@ -180,7 +180,7 @@ div.why-us ul {
 @media screen and (max-width:500px) {
     body {
         display:block;
-        padding:0.5rem 0.5rem;
+        padding:1rem 0.5rem;
     }
     div.wrapper {
         width:95%;
